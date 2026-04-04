@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ITS College - Apps on Google Play</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+        rel="stylesheet" />
+</head>
+
+<body>
+
+    <div class="container">
+        <!-- App Header -->
+        <header class="app-header">
+            <div class="app-icon-container">
+                <img src="assets/its-engineering.png" alt="ITS Engineering Logo"
+                    style="width: 100%; height: 100%; object-fit: contain;">
+            </div>
+            <div class="app-main-info">
+                <h1 class="app-title">ITS College (Unofficial)</h1>
+                <p class="app-developer">Neuro Dev Studio Apps</p>
+                <div class="app-meta">Contains No ads • No In-app purchases</div>
+            </div>
+        </header>
+
+        <!-- Stats Row -->
+        <div class="stats-row">
+            <div class="stat-item">
+                <div class="stat-value" style="color: var(--playstore-blue);">
+                    <span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">verified</span>
+                </div>
+                <div class="stat-label">Editors' Choice</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-value">1k+</div>
+                <div class="stat-label">Downloads</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-value">
+                    <span class="material-symbols-outlined" style="font-size: 18px;">child_care</span>
+                </div>
+                <div class="stat-label">Rated for 3+</div>
+            </div>
+        </div>
+
+        <!-- Install Button & Version -->
+        <div style="position: relative; margin-bottom: 32px;">
+            <button class="install-btn" id="install-btn" style="margin-bottom: 0;">Install</button>
+            <div class="version-tag">v2.4.1</div>
+        </div>
+
+        <!-- Screenshot Carousel -->
+        <div class="carousel-container" id="carousel">
+            <div class="screenshot-item">
+                <img src="assets/home_header.png" alt="Home Dashboard">
+            </div>
+            <div class="screenshot-item">
+                <img src="assets/attendance_gauge.png" alt="Attendance Tracker">
+            </div>
+            <div class="screenshot-item">
+                <img src="assets/notice_cards.png" alt="Notice Board">
+            </div>
+            <!--<div class="screenshot-item">
+                <img src="assets/home_header.png" alt="Home Dashboard">
+            </div> -->
+        </div>
+
+        <!-- About this app -->
+        <div class="section-title">
+            About this app
+            <span class="material-symbols-outlined">arrow_forward</span>
+        </div>
+        <div class="section-content">
+            <p>The ITS College App is a student-first dashboard designed to simplify academic life. Track your lectures,
+                manage attendance, and stay updated with campus notices—all in one place.</p>
+
+            <p style="margin-top: 16px; font-weight: 500; color: var(--playstore-text-main);">Comprehensive Features:
+            </p>
+            <!--<ul style="margin-left: 20px; margin-top: 8px; list-style-type: none;">
+                <li>📅 <b>Live Timetable:</b> Automatic scrolling to your current lecture.</li>
+                <li>📊 <b>GPA Tracking:</b> Calculate SGPA and CGPA in real-time.</li>
+                <li>💳 <b>Digital ID:</b> Access campus facilities with your digital QR ID.</li>
+                <li>🧾 <b>Fee Management:</b> Download receipts and pay fees instantly.</li>
+                <li>📚 <b>Library Hub:</b> Check book availability and reserve titles.</li>
+            </ul>-->
+
+            <div style="margin-top: 24px;">
+                <span class="feature-tag">Education</span>
+                <span class="feature-tag">Productivity</span>
+                <span class="feature-tag">College Management</span>
+                <span class="feature-tag">Student Life</span>
+            </div>
+        </div>
+
+        <!-- Data Safety -->
+        <div class="section-title">
+            Data safety
+            <span class="material-symbols-outlined">arrow_forward</span>
+        </div>
+        <div class="section-content" style="margin-bottom: 24px;">
+            Safety starts with understanding how developers collect and share your data. Data privacy and security
+            practices may vary based on your use, region, and age.
+        </div>
+        <div class="data-safety-box">
+            <div class="data-safety-item">
+                <span class="material-symbols-outlined">share</span>
+                <div class="data-safety-item-text">
+                    <b>No data shared with third parties</b><br>
+                    Developer says this app doesn't share user data with other companies or organizations.
+                </div>
+            </div>
+            <div class="data-safety-item">
+                <span class="material-symbols-outlined">cloud_off</span>
+                <div class="data-safety-item-text">
+                    <b>No data collected</b><br>
+                    The developer says this app doesn't collect user data.
+                </div>
+            </div>
+            <div class="data-safety-item">
+                <span class="material-symbols-outlined">lock</span>
+                <div class="data-safety-item-text">
+                    <b>Data is encrypted in transit</b><br>
+                    Your data is transferred over a secure connection.
+                </div>
+            </div>
+            <div class="data-safety-item">
+                <span class="material-symbols-outlined">delete</span>
+                <div class="data-safety-item-text">
+                    <b>You can request that data be deleted</b><br>
+                    The developer provides a way for you to request that your data be deleted.
+                </div>
+            </div>
+            <a href="#" class="text-link" style="font-size: 14px;">See details</a>
+        </div>
+
+        <a href="#" class="text-link" style="display: block; margin-bottom: 40px;">See developer info</a>
+
+        <!-- App Metadata Info -->
+        <div class="section-title">App info</div>
+        <div class="app-info-grid">
+            <div class="app-info-item">
+                <div class="app-info-label">Version</div>
+                <div class="app-info-value">1.0.0</div>
+            </div>
+            <div class="app-info-item">
+                <div class="app-info-label">Updated on</div>
+                <div class="app-info-value">Apr 1, 2026</div>
+            </div>
+            <div class="app-info-item">
+                <div class="app-info-label">Downloads</div>
+                <div class="app-info-value">1,000+ downloads</div>
+            </div>
+            <div class="app-info-item">
+                <div class="app-info-label">Download size</div>
+                <div class="app-info-value">16 MB</div>
+            </div>
+            <div class="app-info-item">
+                <div class="app-info-label">Required OS</div>
+                <div class="app-info-value">Android 8.0 and up</div>
+            </div>
+            <div class="app-info-item">
+                <div class="app-info-label">In-app purchases</div>
+                <div class="app-info-value">No item</div>
+            </div>
+        </div>
+
+        <!-- Developer Contact -->
+        <div class="section-title">Developer contact</div>
+        <div class="section-content" style="margin-bottom: 40px;">
+            <div class="data-safety-item">
+                <span class="material-symbols-outlined">language</span>
+                <div class="data-safety-item-text">
+                    <a href="https://neurodev.in" class="text-link">Website</a>
+                </div>
+            </div>
+            <div class="data-safety-item">
+                <span class="material-symbols-outlined">mail</span>
+                <div class="data-safety-item-text">
+                    Email: shadowknight.gov@gmail.com
+                </div>
+            </div>
+            <div class="data-safety-item">
+                <span class="material-symbols-outlined">location_on</span>
+                <div class="data-safety-item-text">
+                    Surajpur , Greater Noida <br> India
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <div>&copy; 2026 ITS Institutional Apps • Privacy Policy</div>
+            <div style="margin-top: 8px;">1k+ Downloads • Verified by Play Protect ✨</div>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
