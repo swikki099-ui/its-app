@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="dark">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ITS College - Apps on Google Play</title>
+    <title>ITS College Dashboard | The Unofficial App</title>
     <link rel="stylesheet" href="style.css">
     <link
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
@@ -13,192 +13,207 @@
 
 <body>
 
-    <div class="container">
-        <!-- App Header -->
-        <header class="app-header">
-            <div class="app-icon-container">
-                <img src="assets/its-engineering.png" alt="ITS Engineering Logo"
-                    style="width: 100%; height: 100%; object-fit: contain;">
-            </div>
-            <div class="app-main-info">
-                <h1 class="app-title">ITS College (Unofficial)</h1>
-                <p class="app-developer">Neuro Dev Studio Apps</p>
-                <div class="app-meta">Contains No ads • No In-app purchases</div>
-            </div>
-        </header>
-
-        <!-- Stats Row -->
-        <div class="stats-row">
-            <div class="stat-item">
-                <div class="stat-value" style="color: var(--playstore-blue);">
-                    <span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">verified</span>
-                </div>
-                <div class="stat-label">Editors' Choice</div>
-            </div>
-            <div class="stat-item">
-                <div class="stat-value">1k+</div>
-                <div class="stat-label">Downloads</div>
-            </div>
-            <div class="stat-item">
-                <div class="stat-value">
-                    <span class="material-symbols-outlined" style="font-size: 18px;">child_care</span>
-                </div>
-                <div class="stat-label">Rated for 3+</div>
-            </div>
-        </div>
-
-        <!-- Install Button & Version -->
-        <div style="position: relative; margin-bottom: 32px;">
-            <!--<button class="install-btn" id="install-btn" style="margin-bottom: 0;">Install</button>-->
-            <button class="install-btn" onclick="window.location.href='https://www.dropbox.com/scl/fi/jyr801q6evw8x6zhqb712/v1.0.5.apk?rlkey=3k63xjma2srb7jbusgje78mm4&st=ynbtfyb1&dl=1';" style="margin-bottom: 0;">Install</button>
-            <div class="version-tag">v1.0.5</div>
-        </div>
-
-        <!-- Screenshot Carousel -->
-        <div class="carousel-container" id="carousel">
-            <div class="screenshot-item">
-                <img src="assets/home_header.png" alt="Home Dashboard">
-            </div>
-            <div class="screenshot-item">
-                <img src="assets/attendance_gauge.png" alt="Attendance Tracker">
-            </div>
-            <div class="screenshot-item">
-                <img src="assets/notice_cards.png" alt="Notice Board">
-            </div>
-            <!--<div class="screenshot-item">
-                <img src="assets/home_header.png" alt="Home Dashboard">
-            </div> -->
-        </div>
-
-        <!-- About this app -->
-        <div class="section-title">
-            About this app
-            <span class="material-symbols-outlined">arrow_forward</span>
-        </div>
-        <div class="section-content">
-            <p>The ITS College App is a student-first dashboard designed to simplify academic life. Track your lectures,
-                manage attendance, and stay updated with campus notices—all in one place.</p>
-
-            <p style="margin-top: 16px; font-weight: 500; color: var(--playstore-text-main);">Comprehensive Features:
-            </p>
-            <!--<ul style="margin-left: 20px; margin-top: 8px; list-style-type: none;">
-                <li>📅 <b>Live Timetable:</b> Automatic scrolling to your current lecture.</li>
-                <li>📊 <b>GPA Tracking:</b> Calculate SGPA and CGPA in real-time.</li>
-                <li>💳 <b>Digital ID:</b> Access campus facilities with your digital QR ID.</li>
-                <li>🧾 <b>Fee Management:</b> Download receipts and pay fees instantly.</li>
-                <li>📚 <b>Library Hub:</b> Check book availability and reserve titles.</li>
-            </ul>-->
-
-            <div style="margin-top: 24px;">
-                <span class="feature-tag">Education</span>
-                <span class="feature-tag">Productivity</span>
-                <span class="feature-tag">College Management</span>
-                <span class="feature-tag">Student Life</span>
-            </div>
-        </div>
-
-        <!-- Data Safety -->
-        <div class="section-title">
-            Data safety
-            <span class="material-symbols-outlined">arrow_forward</span>
-        </div>
-        <div class="section-content" style="margin-bottom: 24px;">
-            Safety starts with understanding how developers collect and share your data. Data privacy and security
-            practices may vary based on your use, region, and age.
-        </div>
-        <div class="data-safety-box">
-            <div class="data-safety-item">
-                <span class="material-symbols-outlined">share</span>
-                <div class="data-safety-item-text">
-                    <b>No data shared with third parties</b><br>
-                    Developer says this app doesn't share user data with other companies or organizations.
-                </div>
-            </div>
-            <div class="data-safety-item">
-                <span class="material-symbols-outlined">cloud_off</span>
-                <div class="data-safety-item-text">
-                    <b>No data collected</b><br>
-                    The developer says this app doesn't collect user data.
-                </div>
-            </div>
-            <div class="data-safety-item">
-                <span class="material-symbols-outlined">lock</span>
-                <div class="data-safety-item-text">
-                    <b>Data is encrypted in transit</b><br>
-                    Your data is transferred over a secure connection.
-                </div>
-            </div>
-            <div class="data-safety-item">
-                <span class="material-symbols-outlined">delete</span>
-                <div class="data-safety-item-text">
-                    <b>You can request that data be deleted</b><br>
-                    The developer provides a way for you to request that your data be deleted.
-                </div>
-            </div>
-            <a href="#" class="text-link" style="font-size: 14px;">See details</a>
-        </div>
-
-        <a href="#" class="text-link" style="display: block; margin-bottom: 40px;">See developer info</a>
-
-        <!-- App Metadata Info -->
-        <div class="section-title">App info</div>
-        <div class="app-info-grid">
-            <div class="app-info-item">
-                <div class="app-info-label">Version</div>
-                <div class="app-info-value">1.0.5</div>
-            </div>
-            <div class="app-info-item">
-                <div class="app-info-label">Updated on</div>
-                <div class="app-info-value">Apr 5, 2026</div>
-            </div>
-            <div class="app-info-item">
-                <div class="app-info-label">Downloads</div>
-                <div class="app-info-value">1,000+ downloads</div>
-            </div>
-            <div class="app-info-item">
-                <div class="app-info-label">Download size</div>
-                <div class="app-info-value">16 MB</div>
-            </div>
-            <div class="app-info-item">
-                <div class="app-info-label">Required OS</div>
-                <div class="app-info-value">Android 8.0 and up</div>
-            </div>
-            <div class="app-info-item">
-                <div class="app-info-label">In-app purchases</div>
-                <div class="app-info-value">No item</div>
-            </div>
-        </div>
-
-        <!-- Developer Contact -->
-        <div class="section-title">Developer contact</div>
-        <div class="section-content" style="margin-bottom: 40px;">
-            <div class="data-safety-item">
-                <span class="material-symbols-outlined">language</span>
-                <div class="data-safety-item-text">
-                    <a href="https://neurodev.in" class="text-link">Website</a>
-                </div>
-            </div>
-            <div class="data-safety-item">
-                <span class="material-symbols-outlined">mail</span>
-                <div class="data-safety-item-text">
-                    Email: shadowknight.gov@gmail.com
-                </div>
-            </div>
-            <div class="data-safety-item">
-                <span class="material-symbols-outlined">location_on</span>
-                <div class="data-safety-item-text">
-                    Surajpur , Greater Noida <br> India
-                </div>
-            </div>
-        </div>
-
-        <footer>
-            <div>&copy; 2026 ITS Institutional Apps • Privacy Policy</div>
-            <div style="margin-top: 8px;">1k+ Downloads • Verified by Play Protect ✨</div>
-        </footer>
+    <!-- Animated Background Mesh -->
+    <div class="bg-mesh">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
     </div>
 
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-brand">
+            <span class="material-symbols-outlined nav-icon">school</span>
+            <span class="nav-title" id="app-name-nav">ITS College</span>
+        </div>
+        <div class="nav-actions">
+            <button class="icon-btn" id="theme-toggle" aria-label="Toggle Theme">
+                <span class="material-symbols-outlined">light_mode</span>
+            </button>
+            <button class="btn-primary nav-dl-btn"
+                onclick="document.getElementById('install-btn-hero').click()">Download</button>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section class="hero-section">
+            <div class="hero-content">
+                <div class="badge" id="app-version-badge">v2.4.1 Now Available</div>
+                <h1 class="hero-title" id="app-hero-title-main">Your Campus,<br><span class="text-gradient">In Your
+                        Pocket.</span></h1>
+                <p class="hero-subtitle">The ultimate unofficial dashboard for ITS College students. Track attendance,
+                    view real-time timetables, and carry your digital ID—all in one beautifully designed app.</p>
+
+                <div class="hero-cta-group">
+                    <button class="btn-primary" id="install-btn-hero">
+                        <span class="material-symbols-outlined">download</span>
+                        Download APK
+                    </button>
+                    <a href="#features" class="btn-secondary">Explore Features</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="glow-container">
+                    <img src="assets/its-engineering.png" alt="ITS College App Icon" class="floating-icon">
+                </div>
+            </div>
+        </section>
+
+        <!-- Floating Stats Pill -->
+        <div class="stats-glass-container">
+            <div class="stats-glass">
+                <div class="stat">
+                    <h3 class="stat-num" id="app-ratings-val">4.8<span class="material-symbols-outlined star-icon"
+                            style="font-variation-settings: 'FILL' 1;">star</span></h3>
+                    <p class="stat-text" id="app-reviews-count">120+ Reviews</p>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat">
+                    <h3 class="stat-num" id="app-downloads-count">5K+</h3>
+                    <p class="stat-text">Active Installs</p>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat">
+                    <h3 class="stat-num"><span class="material-symbols-outlined verified-icon"
+                            style="font-variation-settings: 'FILL' 1;">verified_user</span></h3>
+                    <p class="stat-text">Safe & Secure</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Features Section -->
+        <section class="features-section" id="features">
+            <h2 class="section-heading">Everything you need,<br>nothing you don't.</h2>
+            <div class="bento-grid">
+                <div class="bento-card card-large">
+                    <div class="card-icon"><span class="material-symbols-outlined">calendar_month</span></div>
+                    <h3>Real-time Timetable</h3>
+                    <p>Stop checking PDFs. The app automatically scrolls to your current lecture and highlights what's
+                        coming up next.</p>
+                </div>
+                <div class="bento-card">
+                    <div class="card-icon"><span class="material-symbols-outlined">donut_large</span></div>
+                    <h3>Attendance Tracker</h3>
+                    <p>Keep your percentage out of the danger zone with accurate, live syncs.</p>
+                </div>
+                <div class="bento-card">
+                    <div class="card-icon"><span class="material-symbols-outlined">qr_code_scanner</span></div>
+                    <h3>Digital ID Card</h3>
+                    <p>Access the library, labs, and main gate using your secure QR code.</p>
+                </div>
+                <div class="bento-card card-wide">
+                    <div class="card-icon"><span class="material-symbols-outlined">calculate</span></div>
+                    <h3>Instant GPA Calculator</h3>
+                    <p>Calculate your SGPA and CGPA in seconds without waiting for official transcripts.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Gallery Section -->
+        <section class="gallery-section">
+            <div class="gallery-header">
+                <h2 class="section-heading">See it in action.</h2>
+                <div class="device-toggles">
+                    <button class="device-btn active">Phone</button>
+                    <button class="device-btn">Tablet</button>
+                </div>
+            </div>
+
+            <div class="gallery-track">
+                <div class="app-screen"><img src="assets/home_header.png" alt="Home Dashboard"></div>
+                <div class="app-screen"><img src="assets/attendance_gauge.png" alt="Attendance"></div>
+                <div class="app-screen"><img src="assets/notice_cards.png" alt="Notices"></div>
+                <!-- Loop trick -->
+                <div class="app-screen"><img src="assets/home_header.png" alt="Home Dashboard"></div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section class="reviews-section">
+            <h2 class="section-heading">Loved by students.</h2>
+            <div class="reviews-grid">
+                <div class="review-card">
+                    <div class="review-stars">★★★★★</div>
+                    <p class="review-comment">"The UI is unbelievably clean compared to the official portal. The
+                        attendance tracker is a lifesaver."</p>
+                    <div class="reviewer">
+                        <div class="avatar" style="background:#01875f;">A</div>
+                        <div>
+                            <h4>Aditya Verma</h4>
+                            <span>B.Tech CSE</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="review-card">
+                    <div class="review-stars">★★★★★</div>
+                    <p class="review-comment">"Finally a modern app for our college! The digital ID loads instantly and
+                        dark mode looks amazing."</p>
+                    <div class="reviewer">
+                        <div class="avatar" style="background:#1a73e8;">K</div>
+                        <div>
+                            <h4>Kashish Gupta</h4>
+                            <span>BCA</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-brand">
+                <span class="material-symbols-outlined" style="font-size: 32px; color: var(--primary);">school</span>
+                <h3>ITS College App</h3>
+                <p>Designed with ♥ by Neuro Dev Studio</p>
+            </div>
+            <div class="footer-links">
+
+                <div class="link-column">
+                    <h4>Legal</h4>
+                    <a href="policy.html">Privacy Policy</a>
+                    <a href="terms.html">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>Disclaimer: This is an unofficial student-made application and is not affiliated with ITS directly.</p>
+        </div>
+    </footer>
+
+    <!-- Disclaimer Modal Overlay -->
+    <div class="modal-overlay" id="disclaimer-overlay">
+        <div class="disclaimer-modal">
+            <p>This is an **Unofficial** student-made application. We are **not** affiliated with, endorsed by, or in
+                any way officially connected with the official ITS Institution.</p>
+            <p class="legal-info">Before proceeding, please acknowledge our <a href="policy.html"
+                    target="_blank">Privacy Policy</a> and <a href="terms.html" target="_blank">Terms & Conditions</a>.
+            </p>
+
+            <div class="modal-actions">
+                <button class="btn-primary" id="accept-disclaimer" style="width: 100%;">Accept & Download</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Fullscreen Install Overlay -->
+
+    <div class="install-overlay" id="install-overlay">
+        <div class="install-modal">
+            <div class="spinner"></div>
+            <h3 id="install-status">Preparing Download...</h3>
+            <div class="progress-bar-bg">
+                <div class="progress-bar-fill" id="install-progress"></div>
+            </div>
+            <p class="install-helper" id="install-helper">Please wait while the APK is generated.</p>
+        </div>
+    </div>
+
+    <script src="config.js"></script>
     <script src="script.js"></script>
 </body>
+
 
 </html>
