@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const htmlElement = document.documentElement;
     const themeIcon = themeToggleBtn ? themeToggleBtn.querySelector('.material-symbols-outlined') : null;
 
-    const savedTheme = localStorage.getItem('its_app_theme') || 'dark';
+    const savedTheme = localStorage.getItem('its_app_theme') || 'light';
     htmlElement.setAttribute('data-theme', savedTheme);
     updateThemeIcon(savedTheme);
 
