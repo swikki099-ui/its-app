@@ -6,9 +6,9 @@
     --secondary: #1a73e8;
     
     /* Light Theme Defs (Fallback/Toggleable) */
-    --bg-main: #f8f9fa;
+    --bg-main: #ffffff;
     --bg-surface: #ffffff;
-    --bg-glass: rgba(255, 255, 255, 0.7);
+    --bg-glass: rgba(255, 255, 255, 0.8);
     --text-primary: #111827;
     --text-secondary: #4b5563;
     --border-color: rgba(0, 0, 0, 0.08);
@@ -56,7 +56,7 @@ body {
     position: absolute;
     border-radius: 50%;
     filter: blur(80px);
-    opacity: 0.15;
+    opacity: 0.08;
     animation: float 20s infinite ease-in-out alternate;
 }
 
