@@ -2,7 +2,7 @@
 const CONFIG = {
     APP_VERSION: "v2.0.0",
     APP_NAME: "ITS College ",
-    DOWNLOAD_URL: "https://www.dropbox.com/scl/fi/50qpeyto754mo2wob8tgf/ITS_COLLEGE_v2.0.0.apk?rlkey=yrv7urwy7anprxc23e4o7kvhf&st=7a9nnssu&dl=1",
+    DOWNLOAD_URL: "https://www.dropbox.com/scl/fi/touwk7mionkqae9ph5u1h/v2.0.0.apk?rlkey=tgjivx4x1k42g0myb4cg5ebhk&st=26qgfyw9&dl=1",
     DEV_NAME: "Neuro Dev Studio",
     SUPPORT_EMAIL: "shadowknight.gov@gmail.com",
     RATINGS_VALUE: "4.8",
