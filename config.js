@@ -1,8 +1,8 @@
 // Frontend Configuration (acts as a bridge for .env values in static HTML)
 const CONFIG = {
-    APP_VERSION: "v1.5.5",
+    APP_VERSION: "v2.0.0",
     APP_NAME: "ITS College ",
-    DOWNLOAD_URL: "https://www.dropbox.com/scl/fi/4b3r6us92kyra7m4vevy2/Its_college_v1.5.5.apk?rlkey=xsm193cfgkciq1kn9mct5blc5&st=y8n14vdp&dl=1",
+    DOWNLOAD_URL: "https://www.dropbox.com/scl/fi/50qpeyto754mo2wob8tgf/ITS_COLLEGE_v2.0.0.apk?rlkey=yrv7urwy7anprxc23e4o7kvhf&st=2dzsgry5&dl=1",
     DEV_NAME: "Neuro Dev Studio",
     SUPPORT_EMAIL: "shadowknight.gov@gmail.com",
     RATINGS_VALUE: "4.8",
